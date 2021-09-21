@@ -9,13 +9,11 @@ class MovieList extends React.Component{
   dateConverter=dateEntry=>{
     let myDate = new Date(dateEntry);
     return myDate.toDateString();
-  } 
+  }
   getDateTime=date=>{
     let newDate = new Date(date);
     return newDate.getTime();
   }
-
-  
   render(){
     let movieTitle = this.props.parameters.movieName;
     let genreArr = this.props.parameters.genre;

@@ -5,7 +5,6 @@ import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 import { makeStyles } from '@material-ui/core/styles';
 
-
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -47,6 +46,5 @@ const SingleLineImageList = function () {
     </div>
   );
 }
-
 
 export default SingleLineImageList;
