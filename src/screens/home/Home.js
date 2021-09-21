@@ -4,7 +4,6 @@ import "./Home.css";
 import MovieList from "./MovieList";
 import MovieFilter from "./MovieFilter";
 import SingleLineImageList from "./SingleLineImageList";
-
 class Home extends React.Component{
   constructor(props){
     super(props);
