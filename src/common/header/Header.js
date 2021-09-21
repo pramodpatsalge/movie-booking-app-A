@@ -1,9 +1,9 @@
-import "./Header.css";
+import React from "react";
+import "./Header.css"
+import logo from "../../assets/logo.svg";
 
-class Header extends React.Component{
-    constructor(){
 
-    }
+export default class Header extends React.Component{
     
     render(){
         return(
