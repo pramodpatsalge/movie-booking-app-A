@@ -1,0 +1,11 @@
+.header {
+    background: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    
+  }
+  #logo-img {
+    background: #ff7f7f;
+    height: 35px;
+    animation: logo-anim 8s linear 0s infinite normal forwards;
+  }
